@@ -6,8 +6,8 @@ public class SwitchTest {
 
 
     public static void main(String[] args) {
-        SwitchTest hw = new SwitchTest ();
-        hw.taxCal();
+        SwitchTest ts = new SwitchTest ();
+        ts.taxCal();
     }
 
     public void taxCal() {
