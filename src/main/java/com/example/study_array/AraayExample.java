@@ -24,7 +24,7 @@ public class ArrayExample {
         // hashCode 객체를 관리하기 위한 고유값 key
         System.out.println(arr.hashCode());
 
-        // 크기를 변경한게 아니라 크기가 10인 새로운 배열 할당. 
+        // 크기를 변경한게 아니라 크기가 10인 새로운 배열 할당.
         arr = new double[10];
         System.out.println(arr.hashCode());
 
@@ -104,7 +104,7 @@ public class ArrayExample {
 //		alphabet[1] = 'B';
 //		alphabet[2] = 'C';
 
-        // foreach : 향상된 for문 
+        // foreach : 향상된 for문
         // 하나의 요소를 담을 변수 : 반복접근할 배열
         // 인덱스를 사용할 수 없다.
         for(char ch : alphabet) {
@@ -115,7 +115,7 @@ public class ArrayExample {
 
     /**
      * 홍길동 학생 점수
-     * 100, 90, 80, 98, 65 
+     * 100, 90, 80, 98, 65
      */
     public void test2() {
         final int LENGTH = 10;
@@ -164,7 +164,7 @@ public class ArrayExample {
         // 2.배열할당 - heap영역에 배열을 생성
         // heap영역에 생성된 int공간 4개는 0으로 초기화된다.
         // stack을 제외한 heap, static영역은 변수생성시 자동으로 기본값으로 초기화된다.
-        // 타입별 기본값(0) 
+        // 타입별 기본값(0)
         // - boolean(false)
         // - char(' ')
         // - int(0)
@@ -182,7 +182,6 @@ public class ArrayExample {
         System.out.println(n[2]);
         System.out.println(n[3]); // 마지막 인덱스 : 길이 - 1
     }
-
 }
 
 
