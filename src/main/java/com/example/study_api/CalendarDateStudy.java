@@ -1,4 +1,4 @@
-package com.example.study_apii;
+package com.example.study_api;
 
 import java.util.Calendar;
 import java.util.Date;
