@@ -1,4 +1,4 @@
-package com.example.study_apii;
+package com.example.study_api;
 
 import java.text.DecimalFormat;
 import java.text.ParseException;
